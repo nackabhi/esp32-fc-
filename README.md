@@ -2,6 +2,11 @@
 
 A lightweight, modular flight-controller stack for the ESP32. It supports RC receiver inputs, ESC/motor outputs, and is structured to add IMU-based stabilization and navigation features. Built on ESP-IDF with FreeRTOS.
 Status: Experimental. Not intended for production or safety-critical use.
+<p align="center">
+<img width="434" height="475" alt="image" src="https://github.com/user-attachments/assets/e99cd8f8-78ee-4a0b-9c69-7934cf7a5e8f" />
+  <br>
+  <em>FC V1</em>
+</p>
 
 **Features** 
 
@@ -38,4 +43,22 @@ Status: Experimental. Not intended for production or safety-critical use.
    . $HOME/esp/esp-idf/export.sh
    idf.py --version
     ```
+
+**BUILD AND FLASH**
+```bash
+# Select target and configure
+idf.py set-target esp32
+idf.py menuconfig
+
+# Build
+idf.py build
+
+# Flash (adjust port as needed)
+idf.py -p /dev/ttyUSB0 flash
+
+# Monitor logs
+idf.py -p /dev/ttyUSB0 monitor
+```
+
+
    
