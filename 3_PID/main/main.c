@@ -147,7 +147,7 @@ void read_mpu6050() {
     gyro_y = gy / 65.5; 
     gyro_z = gz / 65.5;
 }
-/**
+
 // Setup BMP280 sensor
 void setup_bmp280() {
     // Check if sensor is there
@@ -218,7 +218,7 @@ void read_bmp280() {
         current_altitude = 44330.0 * (1.0 - pow(pressure / 101325.0, 0.1903));
     }
 }
-*/
+
 // Setup motors with MCPWM
 void setup_motors() {
     mcpwm_config_t pwm_config;
