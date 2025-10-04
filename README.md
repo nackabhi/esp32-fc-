@@ -4,7 +4,7 @@ Readme.md
 A lightweight, modular flight-controller stack for the ESP32. It supports RC receiver inputs, ESC/motor outputs, and is structured to add IMU-based stabilization and navigation features. Built on ESP-IDF with FreeRTOS.
 Status: Experimental. Not intended for production or safety-critical use.
 <p align="center">
-<img width="434" height="475" alt="image" src="https://github.com/user-attachments/assets/e99cd8f8-78ee-4a0b-9c69-7934cf7a5e8f" />
+<img width="474" height="474" alt="image" src="https://github.com/user-attachments/assets/699058aa-62ea-40ff-af78-c2513eaa7264" />
   <br>
   <em>FC V1</em>
 </p>
